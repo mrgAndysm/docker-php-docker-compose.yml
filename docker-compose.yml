@@ -1,0 +1,50 @@
+version: '3'
+# lnmp 服务组
+services:
+
+  php:
+    image: 'registry.cn-shanghai.aliyuncs.com/ys_php/php-fpm'
+    container_name: 'php'
+    user: root
+    expose:
+      - 9000
+    ports:
+      - "9000:9000"
+    environment:
+      PHP_ENV_SPACE:  local
+    volumes:
+      - ./www/:/www/
+      - ./php/conf.d/:/usr/local/etc/
+      - /etc/passwd:/etc/passwd
+      - /etc/group:/etc/group
+    networks: 
+      - lnp-network
+    command: php-fpm
+  nginx:
+    image: "registry.cn-shanghai.aliyuncs.com/ys_php/nginx:latest"
+    container_name: nginx
+    expose:
+      - 80
+    volumes:
+      - ./nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf
+      - ./nginx/conf.d/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/conf.d/host.access.log:/etc/nginx/host.access.log
+      - ./nginx/conf.d/log/:/var/log/nginx/
+      - ./nginx/docker-entrypoint.sh:/docker-entrypoint.sh
+      - ./nginx/docker-entrypoint.d/:/docker-entrypoint.d
+      - ./www/:/www/
+      - /etc/passwd:/etc/passwd
+      - /etc/group:/etc/group
+    ports:
+      - "80:80"
+    depends_on:
+      - php
+    networks: 
+      - lnp-network
+    command: [nginx, '-g', 'daemon off;']
+
+# 使用已经定义的网络  lnp-network
+networks:
+  lnp-network:
+    external:
+      name: lnp-network

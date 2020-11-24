@@ -1,1 +1,1 @@
-FROM registry.cn-shanghai.aliyuncs.com/ys_php/nginx
+FROM registry.cn-shanghai.aliyuncs.com/pmg_space/pgm-nginx

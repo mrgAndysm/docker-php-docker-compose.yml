@@ -1,7 +1,7 @@
 基于docker-compose 搭建 php7.1 
 ===========================
 ### 环境依赖
-    安装 Docker和docker-composer
+    安装 Docker和docker-composer 最新版就行了
 ### 部署步骤
     1.在根目录下直接 docker-compose up
     可以在

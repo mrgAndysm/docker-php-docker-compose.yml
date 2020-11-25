@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66993f4e-0336-4ebc-bbe1-667ce6cadbf6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/html/xiaobien-php" beforeDir="false" afterPath="$PROJECT_DIR$/www/html/xiaobien-php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/html/xiaobien-php/apps/apis/admin/v1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/html/xiaobien-php/apps/apis/admin/v1/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/html/xiaobien-php/apps/common/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/html/xiaobien-php/apps/common/config/services.php" afterDir="false" />
@@ -56,14 +56,14 @@
         <counts>
           <entry key="Dockerfile" value="15" />
           <entry key="conf" value="69" />
-          <entry key="md" value="146" />
+          <entry key="md" value="216" />
           <entry key="yml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="15" />
-          <entry key="Markdown" value="146" />
+          <entry key="Markdown" value="216" />
           <entry key="SmartyConfig" value="69" />
           <entry key="YAML" value="9" />
         </counts>
@@ -94,8 +94,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="361">
-                <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+              <first_editor relative-caret-position="228">
+                <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               </first_editor>
               <second_editor />
             </state>
@@ -241,18 +241,18 @@
       <updated>1605856906123</updated>
       <workItem from="1605856907288" duration="4188000" />
       <workItem from="1605861694227" duration="4813000" />
-      <workItem from="1606098243325" duration="11735000" />
+      <workItem from="1606098243325" duration="11886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20736000" />
+    <option name="totallyTimeSpent" value="20887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -265,7 +265,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -469,8 +469,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="361">
-            <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+          <first_editor relative-caret-position="228">
+            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           </first_editor>
           <second_editor />
         </state>

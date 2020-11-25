@@ -9,7 +9,9 @@
         │       └── vhost   
     下配server
 
-
+### 基础镜像该镜像已 push 到阿里容器镜像库
+        ├── php7.1             
+        │       └── Dockerfile   
 ### 目录结构描述
 
     ├── Readme.md                     // help   

@@ -2,10 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66993f4e-0336-4ebc-bbe1-667ce6cadbf6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/html/xiaobien-php" beforeDir="false" afterPath="$PROJECT_DIR$/www/html/xiaobien-php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/conf.d/vhost/laravel.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/proto/identity.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/resources/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/laravel/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/conf.d/log/access.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/conf.d/log/error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/conf.d/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/conf.d/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/docker-entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/docker-entrypoint.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/html/xiaobien-php/apps/apis/admin/v1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/html/xiaobien-php/apps/apis/admin/v1/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/html/xiaobien-php/apps/common/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/html/xiaobien-php/apps/common/config/services.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,35 +163,89 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="2123345697">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Dockerfile" value="1" />
+          <entry key="conf" value="5" />
+          <entry key="html" value="2" />
+          <entry key="ini" value="2" />
+          <entry key="ini-development" value="1" />
+          <entry key="ini-production" value="1" />
+          <entry key="log" value="6" />
+          <entry key="php" value="7" />
+          <entry key="sh" value="8" />
+          <entry key="yml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Dockerfile" value="1" />
+          <entry key="HTML" value="2" />
+          <entry key="Ini" value="2" />
+          <entry key="PHP" value="7" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="SmartyConfig" value="5" />
+          <entry key="YAML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="conf" value="94" />
+          <entry key="php" value="56" />
+          <entry key="yml" value="48" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="56" />
+          <entry key="SmartyConfig" value="94" />
+          <entry key="YAML" value="48" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="285">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/php7.1/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/php/conf.d/php.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+            <state relative-caret-position="2128">
+              <caret line="112" column="25" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="57">
-                <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-              </first_editor>
-              <second_editor />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/conf.d/php.ini-production">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/conf.d/php.ini-development">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="79" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -105,8 +253,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nginx/conf.d/vhost/xiaobien-admin.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="342">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nginx/conf.d/vhost/laravel.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/laravel/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/laravel/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/laravel/public/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nginx/conf.d/log/error.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -126,6 +315,7 @@
       <find>ssh2</find>
       <find>apcu</find>
       <find>bz2</find>
+      <find>limit_extensions</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -138,12 +328,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/php/php.ini" />
-        <option value="$PROJECT_DIR$/nginx/docker-entrypoint.sh" />
-        <option value="$PROJECT_DIR$/nginx/conf.d/nginx.conf" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/nginx/conf.d/vhost/xiaobien-admin.conf" />
         <option value="$PROJECT_DIR$/php/Dockerfile" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/nginx/docker-entrypoint.d/10-listen-on-ipv6-by-default.sh" />
+        <option value="$PROJECT_DIR$/nginx/docker-entrypoint.d/20-envsubst-on-templates.sh" />
+        <option value="$PROJECT_DIR$/nginx/docker-entrypoint.sh" />
+        <option value="$PROJECT_DIR$/nginx/conf.d/log/access.log" />
+        <option value="$PROJECT_DIR$/nginx/conf.d/vhost/xiaobien-admin.conf" />
+        <option value="$PROJECT_DIR$/nginx/conf.d/log/error.log" />
+        <option value="$PROJECT_DIR$/nginx/conf.d/nginx.conf" />
+        <option value="$PROJECT_DIR$/nginx/conf.d/default.conf" />
+        <option value="$PROJECT_DIR$/www/html/xiaobien-php/apps/apis/admin/v1/index.php" />
+        <option value="$PROJECT_DIR$/nginx/conf.d/vhost/laravel.conf" />
+        <option value="$PROJECT_DIR$/www/laravel/public/index.php" />
+        <option value="$PROJECT_DIR$/www/laravel/routes/web.php" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -153,13 +352,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/www/laravel/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/../src/ide-stubs/src/Phalcon" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1916" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="width" value="1936" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -168,7 +373,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,18 +394,70 @@
             <path>
               <item name="docker-php-docker-compose.yml" type="b2602c69:ProjectViewProjectNode" />
               <item name="docker-php-docker-compose.yml" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
+              <item name="conf.d" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docker-php-docker-compose.yml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-php-docker-compose.yml" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
+              <item name="conf.d" type="462c0819:PsiDirectoryNode" />
+              <item name="vhost" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docker-php-docker-compose.yml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-php-docker-compose.yml" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
+              <item name="docker-entrypoint.d" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docker-php-docker-compose.yml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-php-docker-compose.yml" type="462c0819:PsiDirectoryNode" />
               <item name="php" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="docker-php-docker-compose.yml" type="b2602c69:ProjectViewProjectNode" />
               <item name="docker-php-docker-compose.yml" type="462c0819:PsiDirectoryNode" />
               <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="conf.d" type="462c0819:PsiDirectoryNode" />
+              <item name="grpcplugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docker-php-docker-compose.yml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-php-docker-compose.yml" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docker-php-docker-compose.yml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-php-docker-compose.yml" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docker-php-docker-compose.yml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-php-docker-compose.yml" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docker-php-docker-compose.yml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-php-docker-compose.yml" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docker-php-docker-compose.yml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-php-docker-compose.yml" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,6 +469,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\php-code\intranet-goods.zhaoliangji.com\docker-php-docker-compose.yml\nginx\conf.d\vhost" />
+      <recent name="E:\php-code\intranet-goods.zhaoliangji.com\docker-php-docker-compose.yml\www" />
       <recent name="E:\php-code\docker-php-docker-compose.yml\php" />
       <recent name="E:\php-code\docker-php-docker-compose.yml\nginx\conf.d" />
     </key>
@@ -242,14 +500,16 @@
       <workItem from="1605856907288" duration="4188000" />
       <workItem from="1605861694227" duration="4813000" />
       <workItem from="1606098243325" duration="12835000" />
+      <workItem from="1657698325181" duration="6803000" />
+      <workItem from="1657778629885" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21836000" />
+    <option name="totallyTimeSpent" value="29237000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="0" width="1936" height="1047" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
@@ -265,12 +525,14 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,189 +542,31 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/php/bin/check-status-code">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="418">
-            <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/conf.d/php/conf.d/docker-php-ext-swoole.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/conf.d/php/conf.d/docker-php-ext-sysvmsg.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/conf.d/php-fpm.d/docker.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/conf.d/php-fpm.d/www.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/php/bin/check-status-code" />
+    <entry file="file://$PROJECT_DIR$/php/README.md" />
+    <entry file="file://$PROJECT_DIR$/php/conf.d/php/conf.d/docker-php-ext-swoole.ini" />
+    <entry file="file://$PROJECT_DIR$/php/conf.d/php/conf.d/docker-php-ext-sysvmsg.ini" />
+    <entry file="file://$PROJECT_DIR$/php/conf.d/php-fpm.d/docker.conf" />
+    <entry file="file://$PROJECT_DIR$/php/conf.d/php-fpm.d/www.conf" />
     <entry file="file://$PROJECT_DIR$/nginx/conf.d/default.conf.bak" />
-    <entry file="file://$PROJECT_DIR$/nginx/docker-entrypoint.d/10-listen-on-ipv6-by-default.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/docker-entrypoint.d/20-envsubst-on-templates.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/nignx/logs/xiaobien_admin_net.log.error">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/nignx/logs/xiaobien_admin_net_access.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/Dockerfile.bak">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/conf.d/pear.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/conf.d/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/conf.d/log/error.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/conf.d/log/access.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/conf.d/default.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/conf.d/host.access.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/docker-entrypoint.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="51" selection-start-column="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/conf.d/vhost/xiaobien-admin.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/sources.list">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/docker-php-pecl-install">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/bin/docker-php-pecl-install">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/my.cnf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/conf.d/php/conf.d/docker-php-ext-bz2.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/conf.d/php-fpm.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="123" column="22" selection-start-line="123" selection-start-column="22" selection-end-line="123" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/conf.d/php/php.ini-production">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="67" lean-forward="true" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/conf.d/php/php.ini-development">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1767" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/www/nignx/logs/xiaobien_admin_net.log.error" />
+    <entry file="file://$PROJECT_DIR$/www/nignx/logs/xiaobien_admin_net_access.log" />
+    <entry file="file://$PROJECT_DIR$/php/Dockerfile.bak" />
+    <entry file="file://$PROJECT_DIR$/php/conf.d/pear.conf" />
+    <entry file="file://$PROJECT_DIR$/php/php.ini" />
+    <entry file="file://$PROJECT_DIR$/php/sources.list" />
+    <entry file="file://$PROJECT_DIR$/php/docker-php-pecl-install" />
+    <entry file="file://$PROJECT_DIR$/php/bin/docker-php-pecl-install" />
+    <entry file="file://$PROJECT_DIR$/php/my.cnf" />
+    <entry file="file://$PROJECT_DIR$/php/conf.d/php/conf.d/docker-php-ext-bz2.ini" />
+    <entry file="file://$PROJECT_DIR$/php/conf.d/php-fpm.conf" />
+    <entry file="file://$PROJECT_DIR$/php/conf.d/php/php.ini-production" />
+    <entry file="file://$PROJECT_DIR$/php/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/php/conf.d/php/php.ini-development" />
     <entry file="file://$PROJECT_DIR$/php/php7.1/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+        <state relative-caret-position="1976">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
         </state>
       </provider>
     </entry>
@@ -473,6 +577,145 @@
             <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/laravel/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/laravel/server.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/conf.d/host.access.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/docker-entrypoint.d/20-envsubst-on-templates.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/docker-entrypoint.d/10-listen-on-ipv6-by-default.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/docker-entrypoint.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/conf.d/log/access.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/conf.d/default.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/conf.d/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/html/xiaobien-php/apps/apis/admin/v1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/conf.d/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2128">
+          <caret line="112" column="25" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/conf.d/php.ini-production">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/conf.d/php.ini-development">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="79" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/conf.d/vhost/xiaobien-admin.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/conf.d/vhost/laravel.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/laravel/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/laravel/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/laravel/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/conf.d/log/error.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

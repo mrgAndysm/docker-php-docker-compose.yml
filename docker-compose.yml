@@ -6,10 +6,6 @@ services:
     image: 'registry.cn-shanghai.aliyuncs.com/pmg_space/testpgm-php:7.1'
     container_name: 'php'
     user: root
-    expose:
-      - 9000
-    ports:
-      - "9000:9000"
     environment:
       PHP_ENV_SPACE:  local
     volumes:
